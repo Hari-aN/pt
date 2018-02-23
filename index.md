@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<%-- 
+    Document   : index
+    Created on : 21-Jul-2017, 11:24:35
+    Author     : HV
+--%>
 
-You can use the [editor on GitHub](https://github.com/haribhai/pt/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <jsp:include page="Header.jspf"/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <%--<style>#con
+            { background-image: url("img/../CorporateSiteDemo/media/Mock4/banner-bg.jpg");
+              background-repeat: repeat-x;padding-top:110px;}
+            </style>
+        --%>
+        <div id="slider">
+            <figure>
+                <img src="./img/Banner7-Eng-min.png" alt>
+                <img src="./img/Jeevan-Umang-ENG-Banner-900x350.jpg" alt>
+                <img src="./img/bima_dia-min.jpg" alt>
+                   <img src="./img/Banner7-Eng-min.png" alt>
+                   <img src="./img/bima_dia-min.jpg" alt>
+            </figure>
+        </div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+        <jsp:include page="Footer.jspf"/>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/haribhai/pt/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </body>
+</html>
